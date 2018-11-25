@@ -1,6 +1,6 @@
 # upload-file
--Upload file with JavaScript and PHP
--Image file can either be selected or dragged and drop in designated area if supported
+#Upload file with JavaScript and PHP
+#Image file can either be selected or dragged and drop in designated area if supported
 -Image file is uploaded by php on server
 -File name is stored in database with accompanying id
 -File is uploaded to folder with database id apart of filename.
