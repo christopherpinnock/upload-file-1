@@ -58,10 +58,9 @@ if(isset($_FILES['photo'])){//Request to upload photo
 				if(!move_uploaded_file($temp, $destination)){
 					//delete database entry as file upload was unsuccessful
 					$del=$conn->exec("DELETE FROM images WHERE id=$imgId");
-		            if($del!==false&&$del>0){
-		            	$error='Sorry, unable to upload file.';
+		                        if($del!==false&&$del>0){
+		            	            $error='Sorry, unable to upload file.';
 					}
-					//$del->closeCursor();
 				}
 			}else{
 				$error='Sorry, image size can be no greater than '.($filesize/1000).'kb.';
