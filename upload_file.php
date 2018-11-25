@@ -109,7 +109,7 @@ if($ajax){//Check if request was done vi ajax
 		    	border:0;
 		    	margin:0;
 		    	font: inherit;
-	            vertical-align: baseline;
+	                vertical-align: baseline;
 		    }
 		    body,div,img,span,form{
 		    	font-size: 100%;
@@ -118,11 +118,11 @@ if($ajax){//Check if request was done vi ajax
 		    	height:400px;
 		    	margin:0 auto;
 		    }
-			#dropbox{
+		    #dropbox{
 				padding:10px;
 				background:#e0e0e0;
-			}
-			.width{
+		    }
+		    .width{
 				width:400px;
 			}
 			#btn-container{
@@ -140,11 +140,11 @@ if($ajax){//Check if request was done vi ajax
 				border:1px solid #e0e0e0;
 				z-index: 4;
 				top:45%;
-				left:0; 
-                right:0; 
-                margin-left:auto; 
-                margin-right:auto; 
-            }
+				left:0;
+				right:0; 
+                                margin-left:auto; 
+                                margin-right:auto; 
+                        }
 			#remove-img{
 				background: url('/images/icons/remove-x.png') no-repeat top left;
 				top:4px;
@@ -195,9 +195,6 @@ if($ajax){//Check if request was done vi ajax
 				filter:alpha(opacity=0);
 				z-index: 10;
 				cursor:pointer;
-			}
-			form{
-				text-align:center;
 			}
 			@media(max-width:480px){
 				body{
